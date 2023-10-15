@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameSet - ゲーム専用SNS</title>
+</head>
+<body>
+    <h1>GameSet - ゲーム専用SNS</h1>
+    <div class="container">
+        <form>
+          <p class="fsize">アカウント登録</p>
+          <input type="text" placeholder="名前" />
+          <input type="email" placeholder="メールアドレス" />
+          <input type="password" placeholder="パスワード" />
+          <button type="submit">登録</button>
+        </form>
+
+        <form>
+            <p class="fsize">ログイン</p>
+            <input type="text" placeholder="メールアドレス" />
+            <input type="password" placeholder="パスワード" />
+            <button type="submit">ログイン</button>
+          </form>
+          <p>
+            <a href="reset_pw.html">パスワードを忘れた</a>
+          </p>
+          
+      </div>
+
+      <style>
+         h1{
+            text-align: center;
+         }
+         
+         p{
+            text-align: center;
+         }
+
+        .fsize{
+  font-size: 24px;
+  text-align: center;
+}
+
+form{
+    margin: 50px;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3d3d3d;
+}
+      </style>
+</body>
+</html>
